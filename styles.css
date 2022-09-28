@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body {
+   overflow-x: hidden; 
+}
+
+.d-inline-block {
+    margin-left: 50px;
+}
+.navbar-brand {
+    margin-right: 0px;
+}
+
+.navbar-expand-xl .navbar-collapse {
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.navbar-expand-xl .navbar-nav #link-verdecito {
+    color: green;
+}
+
+
+.card {
+    border: radius 0; 
+    
+    
+}
+
+.card-img, .card-img-top {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    border-radius: 0;
+}
+@media (max-width: 2000px) and (min-width: 840px) {
+    .card-img-overlay {
+        padding-top: 25%;
+  
+    }}
+  
+
+.card-title2 {
+    text-align: right;
+    padding-right: 8%;
+    padding-bottom: 1%;
+    font-family: 'Inter Tight', sans-serif;
+    
+}
+
+@media (max-width: 2000px) and (min-width: 800px) {
+    .caja {
+        display: block;
+        width: 50%;
+        float: right;
+    }
+  }
+
+@media (max-width: 2000px) and (min-width: 450px) {
+    .card-text {
+        text-align: right;
+        padding-right: 8%;
+    }
+  }
+
+.card-text {
+    text-align: right;
+    font-size: small;
+    padding-right: 8%;
+    
+ 
+}
+
+
+h5 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.botones {
+    text-align: right;
+    padding-right: 8%;
+    margin-top: 3%;
+
+}
+
+.h3 {
+    font-weight: bold;
+    margin-bottom: 1%;
+    
+}
+
+.oradores {
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.convertite-en-un-orador {
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.tarjetas .card-group {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h6 {
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-body > .card-text {
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.playa > .row {
+    border: white, 1px, solid;
+}
+
+.card-title-hola {
+    font-size: x-large;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+/* formulario */
+
+.formulario {
+    position: relative;
+}
+.formulario .nombre {
+    width: 35%;
+    margin-left: 15%;
+}
+
+.formulario .apellido {
+    width: 35%;
+    margin-left: 1%;
+    margin-right: 10%;
+
+}
+
+.formulario .form-floating {
+    padding-left: 15%;
+    padding-right: 13.5%;
+    margin-top: 1%;
+}
+
+.formulario .form-floating .form-label{
+    padding-left: 17.5%;
+    padding-right: 13.5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.formulario .form-floating #botonverde {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: #96c93e;
+    border: #7ba237, solid, 1px;
+}
+
+.formulario .form-floating p {
+    color: gray;
+    font-size: small;
+}
+
+/* footer */
+
+footer {
+   font-size: 1em; 
+   background-color: #2c5b87;
+}
+
+footer nav {
+    text-align: center;
+    padding: 0.2em;
+
+}
+footer a {
+    text-decoration: none;
+    margin: 0.6em;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #96c93e; }
