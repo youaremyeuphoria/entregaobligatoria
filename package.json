@@ -1,0 +1,15 @@
+{
+  "name": "entrega",
+  "version": "1.0.0",
+  "description": "obligatorio",
+  "main": "index.html",
+  "scripts": {
+    "test": "hola"
+  },
+  "repository": {
+    "type": "git",
+    "url": "agustinacanterino"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
